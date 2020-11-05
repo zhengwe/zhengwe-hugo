@@ -186,26 +186,26 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         url = "/posts/"
-        name = "文章"
-        weight = 2
+        name = "Posts"
+        weight = 1
         pre = "internal"
         post = "archive"
-    [[menu.main]]
-        url = "/categories/"
-        name = "分类"
-        weight = 3
-        pre = "internal"
-        post = "th"
+#    [[menu.main]]
+#        url = "/categories/"
+#        name = "分类"
+#        weight = 3
+#        pre = "internal"
+#        post = "th"
     [[menu.main]]
         url = "/tags/"
-        name = "标签"
-        weight = 4
+        name = "Tags"
+        weight = 2
         pre = "internal"
         post = "tags"
     [[menu.main]]
         url = "/about/"
-        name = "关于"
-        weight = 5
+        name = "About"
+        weight = 3
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
@@ -218,6 +218,23 @@ uglyURLs = false
     #     weight = 8
     #     identifier = "search"
     #     post = "search"
+
+    ## 社交栏
+    [[menu.socials]]
+        url = "https://github.com/zhengwe"
+        name = "GitHub"
+        weight = 1
+        pre = "external"
+#    [[menu.socials]]
+#        url = "https://t.me/yixiuer"
+#        name = "Telegram"
+#        weight = 2
+#        pre = "external"
+    [[menu.socials]]
+        url = "https://twitter.com/zhengwei919"
+        name = "Twitter"
+        weight = 3
+        pre = "external"
 
 
 
