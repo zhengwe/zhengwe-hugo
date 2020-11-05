@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://zhengwe.com/about/</loc>
+    <lastmod>2020-11-06T02:22:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zhengwe.com/about/about/</loc>
+    <lastmod>2020-11-06T02:22:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zhengwe.com/</loc>
+    <lastmod>2020-11-06T02:22:44+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://zhengwe.com/posts/hello/</loc>
     <lastmod>2020-11-06T01:48:50+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://zhengwe.com/posts/</loc>
-    <lastmod>2020-11-06T01:48:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://zhengwe.com/</loc>
     <lastmod>2020-11-06T01:48:50+08:00</lastmod>
   </url>
   
