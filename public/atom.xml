@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">zhengwe</title>
     <subtitle type="html">Welcome to my blog!</subtitle>
-    <updated>2020-11-06T02:16:15&#43;08:00</updated>
+    <updated>2020-11-06T02:22:47&#43;08:00</updated>
     <id>http://zhengwe.com/</id>
     <link rel="alternate" type="text/html" href="http://zhengwe.com/" />
     <link rel="self" type="application/atom&#43;xml" href="http://zhengwe.com/atom.xml" />
@@ -17,20 +17,19 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator>
         <entry>
-            <title type="text">Hello</title>
-            <link rel="alternate" type="text/html" href="http://zhengwe.com/posts/hello/" />
-            <id>http://zhengwe.com/posts/hello/</id>
-            <updated>2020-11-06T01:48:50&#43;08:00</updated>
-            <published>2020-11-06T01:36:29&#43;08:00</published>
+            <title type="text">About</title>
+            <link rel="alternate" type="text/html" href="http://zhengwe.com/about/about/" />
+            <id>http://zhengwe.com/about/about/</id>
+            <updated>2020-11-06T02:22:44&#43;08:00</updated>
+            <published>2020-11-06T02:21:06&#43;08:00</published>
             <author>
                     <name>zhengwe</name>
                     <uri>http://zhengwe.com/</uri>
                     <email>zhengwei1023@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Tile Hello Hugo</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">My Blog</summary>
             
-                <content type="html">&lt;h2 id=&#34;tile&#34;&gt;Tile&lt;/h2&gt;
-&lt;p&gt;Hello Hugo&lt;/p&gt;
+                <content type="html">&lt;p&gt;My Blog&lt;/p&gt;
 </content>
             
             
