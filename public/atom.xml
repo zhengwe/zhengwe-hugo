@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">zhengwe</title>
     <subtitle type="html">Welcome to my blog!</subtitle>
-    <updated>2020-11-10T11:05:19&#43;08:00</updated>
+    <updated>2020-11-10T11:09:11&#43;08:00</updated>
     <id>http://zhengwe.com/</id>
     <link rel="alternate" type="text/html" href="http://zhengwe.com/" />
     <link rel="self" type="application/atom&#43;xml" href="http://zhengwe.com/atom.xml" />
