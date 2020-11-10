@@ -46,12 +46,10 @@ uglyURLs = false
 
 # URL 结构
 [permalinks]
-    categories = "/categories/:slug/"
     tags = "/tags/:slug/"
 
 # 类别
 [taxonomies]
-    category = "categories"
     tag = "tags"
 
 # 修改时间
@@ -109,9 +107,9 @@ uglyURLs = false
     threshold = 80
     includeNewer = true
     toLower = true
-    [[related.indices]]
-        name = "categories"
-        weight = 100
+#    [[related.indices]]
+#        name = "categories"
+#        weight = 100
     [[related.indices]]
         name = "tags"
         weight = 95
@@ -184,30 +182,30 @@ uglyURLs = false
     #     weight = 1
     #     pre = "internal"
     #     post = "home"
-    [[menu.main]]
-        url = "/posts/"
-        name = "Posts"
-        weight = 1
-        pre = "internal"
-        post = "archive"
+#    [[menu.main]]
+#        url = "/posts/"
+#        name = "Posts"
+#        weight = 1
+#        pre = "internal"
+#        post = "archive"
 #    [[menu.main]]
 #        url = "/categories/"
 #        name = "分类"
 #        weight = 3
 #        pre = "internal"
 #        post = "th"
-    [[menu.main]]
-        url = "/tags/"
-        name = "Tags"
-        weight = 2
-        pre = "internal"
-        post = "tags"
-    [[menu.main]]
-        url = "/about/"
-        name = "About"
-        weight = 3
-        pre = "internal"
-        post = "user-circle"
+#    [[menu.main]]
+#        url = "/tags/"
+#        name = "Tags"
+#        weight = 2
+#        pre = "internal"
+#        post = "tags"
+#    [[menu.main]]
+#        url = "/about/"
+#        name = "About"
+#        weight = 3
+#        pre = "internal"
+#        post = "user-circle"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -218,6 +216,28 @@ uglyURLs = false
     #     weight = 8
     #     identifier = "search"
     #     post = "search"
+    [[menu.main]]
+        url = "/posts/"
+        name = "Posts"
+        weight = 1
+        pre = "internal"
+        post = "grav"
+        identifier = "p"
+    [[menu.main]]
+        url = "/tags/"
+        name = "Tags"
+        weight = 2
+        pre = "internal"
+        post = "wpexplorer"
+        identifier = "tech"
+    [[menu.main]]
+        url = "/about/"
+        name = "About"
+        weight = 3
+        pre = "internal"
+        post = "user-circle"
+        identifier = "about"
+
 
     ## 社交栏
     [[menu.socials]]
@@ -235,6 +255,18 @@ uglyURLs = false
         name = "Twitter"
         weight = 3
         pre = "external"
+
+    ## 链接栏
+    [[menu.links]]
+        url = "/"
+        name = "Home"
+        weight = 1
+        pre = "internal"
+    [[menu.links]]
+        url = "/tags/"
+        name = "Tags"
+        weight = 2
+        pre = "internal"
 
 
 ##########################################
