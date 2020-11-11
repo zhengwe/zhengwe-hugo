@@ -319,11 +319,11 @@ uglyURLs = false
     # 菜单栏
 
     # 是否开启
-    enableMenu = true
+    enableMenu = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = true
+    displayMenuInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
@@ -342,7 +342,7 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "Posts"
+    homeLayout = "posts"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
@@ -737,12 +737,12 @@ uglyURLs = false
     # 文章元信息
 
     # 是否开启（全局设置）
-    enablePostMeta = true
+    enablePostMeta = false
     # 说明：文章的 Front Matter 中的 `meta`
     #      的优先级高于此处
 
     # 是否在首页开启
-    enablePostMetaInHome = true
+    enablePostMetaInHome = false
     # 说明：仅对「文章摘要」和「普通页面」
     #      首页布局有效
 
@@ -997,7 +997,7 @@ uglyURLs = false
     ## 首字下沉
 
     # 是否开启（全局设置）
-    enableDropCap = false
+    enableDropCap = true
     # 说明：文章的 Front Matter 中的 `dropCap`
     #      的优先级高于此处
 
@@ -1043,7 +1043,7 @@ uglyURLs = false
     enablePostCopyright = true
 
     # 是否显示（全局设置）
-    displayPostCopyright = true
+    displayPostCopyright = false
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的优先级高于此处
 
@@ -1055,7 +1055,7 @@ uglyURLs = false
     enablePostUpdatedBadge = true
 
     # 是否显示（全局设置）
-    displayUpdatedBadge = true
+    displayUpdatedBadge = false
     # 说明：文章的 Front Matter 中的 `badge`
     #      的优先级高于此处
 
@@ -1110,25 +1110,25 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
-    displayPostShare = true
+    displayPostShare = false
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
     displayShareOnText = false
 
-    shareOnTwitter = true
-    shareOnFacebook = true
-    shareOnLinkedIn = true
-    shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
-    shareOnQzone = true
+    shareOnTwitter = false
+    shareOnFacebook = false
+    shareOnLinkedIn = false
+    shareOnTelegram = false
+    shareOnWeibo = false
+    shareOnDouban = false
+    shareOnQQ = false
+    shareOnQzone = false
 
-    shareViaQRCode = true
+    shareViaQRCode = false
 
 
     ######################################
