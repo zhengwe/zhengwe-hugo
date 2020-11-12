@@ -4,7 +4,7 @@ theme = "stack"
 paginate = 5
 title = "zhengwe"
 disqusShortname = "stack"            # Change it to your Disqus shortname before using
-DefaultContentLanguage = "en"                   # Theme i18n support
+DefaultContentLanguage = "zh-cn"                   # Theme i18n support
 
 [permalinks]
     post = "/p/:slug/"
@@ -22,7 +22,7 @@ DefaultContentLanguage = "en"                   # Theme i18n support
     [params.sidebar]
         emoji = "🍥"
         avatar = "img/avatar.png"
-        subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        subtitle = "Blog"
         
     [params.article]
         math = false
@@ -31,7 +31,7 @@ DefaultContentLanguage = "en"                   # Theme i18n support
             default = "Licensed under CC BY-NC-SA 4.0"
             
     [params.comments]
-        enabled = true
+        enabled = false
         provider = "disqus"         # Available: disqus, utterances    
         [params.comments.utterances]
             repo = ""
@@ -40,7 +40,7 @@ DefaultContentLanguage = "en"                   # Theme i18n support
             theme = "preferred-color-scheme"
             
     [params.widgets]
-        enabled = ['search', 'archives', 'tag-cloud']
+        enabled = ['archives', 'tag-cloud']
         [params.widgets.archives]
             limit = 5
             ### Archives page relative URL
