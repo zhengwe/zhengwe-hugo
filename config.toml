@@ -1,5 +1,5 @@
 baseurl = "https://zhengwe.com"
-DefaultContentLanguage = "zh"
+DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "zhengwe"
 theme = "beautifulhugo"
