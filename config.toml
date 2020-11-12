@@ -1,4 +1,4 @@
-baseurl = "https://zhengwe.com"
+baseurl = "http://zhengwe.com"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "zhengwe"
