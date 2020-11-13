@@ -3,15 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zhengwe.com/posts/hello/</loc>
+    <lastmod>2020-11-13T11:51:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhengwe.com/posts/</loc>
+    <lastmod>2020-11-13T11:51:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhengwe.com/</loc>
+    <lastmod>2020-11-13T11:51:14+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhengwe.com/categories/</loc>
   </url>
   
   <url>
     <loc>https://zhengwe.com/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zhengwe.com/</loc>
   </url>
   
 </urlset>
