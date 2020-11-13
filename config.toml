@@ -18,7 +18,7 @@ googleAnalytics = "UA-131734673-1"
   enableReadingTime = true
   favicon = "images/favicon.ico"
   startyear = "2020"
-  description = "A simple and concise hugo theme."
+  description = "A simple Blog"
   disqus = ""
 
 [params.valine]
@@ -39,9 +39,13 @@ googleAnalytics = "UA-131734673-1"
   url = "/"
   weight = 1
   [[menu.main]]
+  name = "Tag"
+  url = "/tag/"
+  weight = 2
+  [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 2
+  weight = 3
 
 [social]
   github = "https://github.com/zhengwe"
