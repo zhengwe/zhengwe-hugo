@@ -3,6 +3,7 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 enableEmoji = true
+hasCJKLanguage = true
 # pagination = 10
 
 title = "zhengwe"
