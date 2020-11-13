@@ -1,103 +1,66 @@
-baseurl = "https://zhengwe.com/"
-languageCode = "en-us"
-theme = "stack"
-paginate = 5
+baseURL = "https://zhengwe.com/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+enableEmoji = true
+# pagination = 10
+
 title = "zhengwe"
-disqusShortname = "stack"            # Change it to your Disqus shortname before using
-DefaultContentLanguage = "zh-cn"                   # Theme i18n support
+author = "zheng wei"
+copyright = "[Home](/) &#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)"
 
-[permalinks]
-    post = "/p/:slug/"
-    page = "/:slug/"
-    
+theme = "simpleness"
+googleAnalytics = "UA-131734673-1"
+
 [params]
-    mainSections = ["post"]
-    featuredImageField = "image"
-    rssFullContent = true
-    
-    [params.dateFormat]
-        published = "Jan 02, 2006"
-        lastUpdated = "Jan 02, 2006 15:04 MST"
-        
-    [params.sidebar]
-        emoji = "🍥"
-        avatar = "img/avatar.png"
-        subtitle = "Blog"
-        
-    [params.article]
-        math = false
-        [params.article.license]
-            enabled = true 
-            default = "Licensed under CC BY-NC-SA 4.0"
-            
-    [params.comments]
-        enabled = false
-        provider = "disqus"         # Available: disqus, utterances    
-        [params.comments.utterances]
-            repo = ""
-            issueTerm = "pathname"
-            label = ""             # Optional
-            theme = "preferred-color-scheme"
-            
-    [params.widgets]
-        enabled = ['archives', 'tag-cloud']
-        [params.widgets.archives]
-            limit = 5
-            ### Archives page relative URL
-            path = "archives"       
-        [params.widgets.tagCloud]
-            limit = 10
-            
-    [params.opengraph]
-        [params.opengraph.twitter]
-            site = ""
-            card = "summary_large_image"
-            
-    [params.defaultImage]
-        [params.defaultImage.opengraph]
-            enabled = false
-            local = false
-            src = ""
-            
+  lazyImage = true
+  enableMathJax = false # enable it in Front Matter
+  enableReadingTime = true
+  favicon = "images/favicon.ico"
+  startyear = "2020"
+  description = "A simple and concise hugo theme."
+  disqus = ""
+
+[params.valine]
+  enable = false
+  lang = 'en' # zh-CN
+  appId = ''
+  appKey = ''
+  placeholder = 'Say Something......'
+  requiredFields = ['nick', 'mail']
+  avatar = 'robohash'
+  visitor = true
+  enableHeaderVisitor = true
+  debug = true
+
 [menu]
-    [[menu.main]]
-        identifier = "home"
-        name = "Home"
-        url = "/"
-        weight = -100
-        pre = "home"
-    [[menu.main]]
-        identifier = "about-cn"
-        name = "About"
-        url = "about"
-        weight = -90
-        pre = "user"
-    [[menu.main]]
-        identifier = "archives"
-        name = "Archives"
-        url = "archives"
-        weight = -70
-        pre = "archives"
-    [[menu.main]]
-        identifier = "search"
-        name = "Search"
-        url = "search"
-        weight = -60
-        pre = "search"
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+  [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
 
-[related]
-    includeNewer = true
-    threshold = 60
-    toLower = false
+[social]
+  github = "https://github.com/zhengwe"
+  rss = "index.xml"
 
-    [[related.indices]]
-        name = "tags"
-        weight = 100
+[taxonomies]
+category = "categories"
+tag = "tags"
 
-    [[related.indices]]
-        name = "categories"
-        weight = 200
-
+# doc: https://gohugo.io/getting-started/configuration-markup#highlight
+# syntax style: https://xyproto.github.io/splash/docs/longer/all.html
 [markup]
-    [markup.highlight]
-        noClasses = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai" # github, dracula, vim, monokai
+    tabWidth = 4
